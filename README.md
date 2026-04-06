@@ -32,5 +32,6 @@ http://localhost:8000/docs
 start cmd>>
 uvicorn main:app --reload --port 8000
 
-
+start cmd for render>>
+uvicorn main:app --host 0.0.0.0 --port $PORT
 
